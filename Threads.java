@@ -4,6 +4,7 @@ public class Threads {
 
 
 Thread numberThread = new Thread(new Numbers());
+    Thread testingThread = new Thread(new Test);
     Thread letterThread = new Thread(new Letters());
 
 numberThread.start();
